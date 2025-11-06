@@ -1,30 +1,3 @@
-// import ProductsPage from '../pages/ProductsPage'
-
-// describe('Product Browsing & Filtering', () => {
-//   const productsPage = new ProductsPage()
-
-//   it('Filters products, selects first, and verifies details', () => {
-//     // Step 1: Visit Products Page
-//     productsPage.visit()
-
-//     // Step 2: Filter by Category → Women > Dress
-//     productsPage.filterByCategory('Women', 'Dress')
-
-//     // Step 3: Verify Filtered Products Contain Keyword
-//     productsPage.verifyFilteredProducts('Dress')
-
-//     // Step 4: Click on First Product
-//     productsPage.selectFirstProduct()
-
-//     // Step 5: Verify Product Details
-//     productsPage.verifyProductDetails({
-//       name: 'Sleeveless Dress',
-//       price: 'Rs. 1000',
-//       availability: 'In Stock'
-//     })
-//   })
-// })
-
 
 import ProductsPage from '../pages/ProductsPage';
 

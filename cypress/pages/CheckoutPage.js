@@ -15,7 +15,6 @@ class CheckoutPage {
   }
 
   placeOrder() {
-    // Click the 'Place Order' button to go to payment section
     cy.contains('Place Order').first().scrollIntoView().click({ force: true })
   }
 
